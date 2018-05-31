@@ -18,7 +18,7 @@ public class Calculator{
 		System.out.print("Enter second number: ");
 	}
 	public static void EnterDoYouContinue(){
-			System.out.print("Do1 You want continue? [yes/no]: ");
+			System.out.print("Do You want continue? [yes/no]: ");
 	}
 }
 
