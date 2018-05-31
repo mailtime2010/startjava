@@ -10,28 +10,22 @@ public class Calculator{
 
 		if (s.equals("+")){
 			a+=b;
-			System.out.println("= " + a);
 		}
 		if (s.equals("-")){
 			a-=b;
-			System.out.print("=" + a);
 		}
 		if (s.equals("*")){
 			a*=b;
-			System.out.print(" = " + a);
 		}
 		if (s.equals("/")){
 			a/=b;
-			System.out.print(" = " + a);
 		}
 		if (s.equals("^")){
 			a^=b;
-			System.out.print("=" + a);
 		}
 		if (s.equals("%")){
 			a%=b;
-			System.out.print(" = " + a);
 		}
-
+		System.out.println("= " + a);
 	}
 }
