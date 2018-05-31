@@ -1,4 +1,4 @@
-public class Guess{
+public class MyFisrtGame{
 	public static void main(String[] args){
 		int x =55;
 		int a = Integer.parseInt(args[0]);	
