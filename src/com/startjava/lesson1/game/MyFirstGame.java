@@ -1,4 +1,6 @@
-public class MyFisrtGame{
+package com.startjava.lesson1.game;
+
+public class MyFirstGame{
 	public static void main(String[] args){
 		int x =55;
 		int a = Integer.parseInt(args[0]);	
