@@ -10,9 +10,9 @@ public class Calculator1{
 	public void setB( int b){ this.b = b;}
 	public void setMath(char math){ this.math = math;}
 
-	public int getA(){ return a;}
+/*	public int getA(){ return a;}
 	public int getB(){ return b;}
-	public char getMath(){return math;}
+	public char getMath(){return math;}*/
 
 
 
