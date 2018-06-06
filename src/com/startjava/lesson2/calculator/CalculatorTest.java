@@ -15,16 +15,14 @@ public class CalculatorTest {
 		String	answer = "yes";
 		while(answer.equals("yes")) {
 			
-			System.out.print("Enter first number: ");
-			int firstNumber = scanner.nextInt();
+			System.out.print("Enter math expression :");
+			String enters = scanner.nextLine();
+			String[] e= enters.split(" ");
+			int firstNumber = Integer.parseInt(e[0]);
 			calc.setA(firstNumber);
-
-			System.out.print("Enter the sign math. operation: ");
-			char mathOperation = scanner.next().charAt(0);
+			char mathOperation = e[1].charAt(0);
 			calc.setMath(mathOperation);
-
-			System.out.print("Enter second number: ");
-			int secondNumber = scanner.nextInt();
+			int secondNumber = Integer.parseInt(e[2]);
 			calc.setB(secondNumber);
 
 			calc.calculate();

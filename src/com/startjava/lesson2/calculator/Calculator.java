@@ -20,9 +20,9 @@ public class Calculator {
 		switch(math){
 			case '+':  System.out.println( a + b); break;
 			case '-': System.out.println( a - b); break;
-			case '*': System.out.println( a * b); break;
+			case '*': System.out.println( Math.multiplyExact(a, b)); break;
 			case '/': System.out.println( a / b); break;
-			case '^': pow();; break;
+			case '^': System.out.println( Math.pow(a, b)); break;
 			case '%': System.out.println( a % b); break;
 			default: System.out.print("Error");
 		}
@@ -30,12 +30,12 @@ public class Calculator {
 
 	}
 
-	private void pow(){
+	/*private void pow(){
 		int result =1;
 		for(int i=0; i < b ; i++)
 			{ result = result * a; }
 		System.out.print(result);
-	}
+	}*/
 }
 
 
