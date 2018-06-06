@@ -9,8 +9,6 @@ public class Player{
 	public String getName(){
 		return this.name;
 	}
-	public void setName(String playername){
-		 name = playername;
-	}
+	// public void setName(String playername){ name = playername;}
 
 }
